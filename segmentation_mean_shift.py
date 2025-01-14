@@ -76,6 +76,6 @@ plt.imshow(segmented_with_lines_mean_shift)
 plt.axis('off')
 
 plt.tight_layout()
+plt.savefig('segmentation.jpg')
 plt.show()
 
-plt.savefig('segmentation.jpg')
